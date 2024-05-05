@@ -29,7 +29,7 @@
         ];
 
         shellHook = ''
-          exec codium .
+          exec codium --verbose .
         '';
       };
     }

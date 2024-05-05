@@ -2,4 +2,4 @@ This flake will automatically open vs code with sumneko's lua extension preinsta
 
 This does not include lua because I won't update this often
 
-`nix develop github:TheBunnyMan123/lua-development-flake`
+`nix develop github:TheBunnyMan123/nodejs-development-flake`

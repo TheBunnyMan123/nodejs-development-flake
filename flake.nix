@@ -7,7 +7,7 @@
     nix-vscode-extensions.url = "github:nix-community/nix-vscode-extensions";
   };
 
-  outputs = { self, nixpkgs, flake-utils }: 
+  outputs = { self, nixpkgs, flake-utils, nix-vscode-extensions }: 
     flake-utils.lib.eachDefaultSystem (system:
     let
       pkgs = import nixpkgs {
